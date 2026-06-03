@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Regenera Journey Mérida: 5 noches y 6 días de inmersión regenerativa en los Andes venezolanos para mujeres viajeras con propósito. Turismo regenerativo liderado por mujeres locales.">
+    <meta name="keywords" content="turismo regenerativo, viaje mujeres, Mérida Venezuela, ecoturismo, bienestar, sostenibilidad">
+    <meta name="author" content="LUNARTE - Regenera Journey Mérida">
+    <meta property="og:title" content="Regenera Journey Mérida | Viaje Regenerativo para Mujeres">
+    <meta property="og:description" content="5 noches de inmersión en los Andes venezolanos. Turismo regenerativo del Ser, el cuerpo y el territorio.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1501555088652-021faa106b9b?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:url" content="https://regenerajourney.com">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#09403a">
+    
+    <title>Regenera Journey Mérida | Viaje Regenerativo</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Iconos de Phosphor -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Fuentes de respaldo de Google Fonts con preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Montserrat:wght@900&family=Roboto+Condensed:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Montserrat:wght@900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Configuración de Tailwind con los colores de LUNARTE -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        verde: '#09403a',
+                        naranja: '#bf4904',
+                        gris: '#e2e2e2'
+                    },
+                    fontFamily: {
+                        titulo: ['"Proxima Nova Black"', 'Montserrat', 'sans-serif'],
+                        cuerpo: ['"Proxima Nova Condensed"', '"Roboto Condensed"', 'sans-serif'],
+                        mantra: ['"Cadmus Pro Regular"', '"Cormorant Garamond"', 'serif']
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out'
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .bg-hero {
+            background-image: linear-gradient(to bottom, rgba(9, 64, 58, 0.4), rgba(9, 64, 58, 0.8)), url('https://images.unsplash.com/photo-1501555088652-021faa106b9b?q=80&w=2073&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+
+        .sr-only:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            padding: inherit;
+            margin: inherit;
+            overflow: visible;
+            clip: auto;
+            white-space: normal;
+        }
+    </style>
+</head>
+<body class="font-cuerpo text-verde antialiased bg-gris">
+
+    <!-- Skip to Main Content Link (for accessibility) -->
+    <a href="#itinerario" class="sr-only focus:not-sr-only focus:fixed focus:top-20 focus:left-4 focus:z-50 focus:bg-naranja focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold">
+        Saltar al contenido principal
+    </a>
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="fixed w-full top-0 z-50 bg-verde/95 backdrop-blur-md text-white py-3 px-6 shadow-md border-b border-white/10">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <div class="font-titulo text-xl tracking-wide flex items-center gap-3">
+                <!-- Icono de Luna -->
+                <div class="h-10 w-10 flex items-center justify-center rounded-full bg-white text-naranja border border-naranja/50 shadow-md">
+                    <i class="ph-fill ph-moon-stars text-2xl" aria-hidden="true"></i>
+                </div>
+                LUNARTE
+            </div>
+            <!-- Botón de Contacto WhatsApp -->
+            <a href="https://wa.me/584246371640?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Regenera%20Journey%20M%C3%A9rida" target="_blank" rel="noopener noreferrer" class="text-sm font-bold bg-naranja px-4 py-2.5 rounded-full hover:bg-orange-700 transition shadow-sm flex items-center gap-2" aria-label="Contáctanos por WhatsApp">
+                <i class="ph-bold ph-whatsapp text-lg" aria-hidden="true"></i>
+                <span class="hidden md:inline">Contáctanos</span>
+                <span class="md:hidden">WhatsApp</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- SECCIÓN 1: HERO SECTION -->
+    <section class="bg-hero min-h-[100svh] flex flex-col justify-center items-center text-center px-6 pt-20 pb-12 relative" aria-label="Sección de bienvenida a Regenera Journey Mérida">
+        <div class="max-w-2xl mx-auto flex flex-col gap-6 animate-fade-in-up">
+            <span class="text-white/90 text-sm md:text-base font-semibold uppercase tracking-widest drop-shadow-md">
+                Una experiencia de viaje regeneradora del Ser, el cuerpo y el territorio.
+            </span>
+            <h1 class="font-titulo text-5xl md:text-6xl lg:text-7xl text-white leading-tight drop-shadow-lg">
+                Regenera<br>
+                <span class="text-naranja drop-shadow-md">Journey</span> Mérida
+            </h1>
+            <p class="text-white/95 text-lg md:text-xl font-light max-w-lg mx-auto leading-relaxed drop-shadow-md">
+                5 noches y 6 días de inmersión en los Andes venezolanos para mujeres que viajan con propósito. Tu tránsito por Mérida es regeneradora del territorio que eres y habitas.
+            </p>
+            <div class="mt-8 w-full flex flex-col gap-4 px-4 items-center">
+                <!-- Botón Secundario (Ancla) -->
+                <a href="#itinerario" class="w-full md:w-auto font-titulo text-white/90 border border-white/40 hover:bg-white/10 px-6 py-3 rounded-xl transition-all shadow-md backdrop-blur-sm">
+                    Ver el itinerario
+                </a>
+                <!-- Botón Principal (WhatsApp) -->
+                <a href="https://wa.me/584246371640?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Regenera%20Journey%20M%C3%A9rida" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center gap-2 w-full md:w-auto bg-naranja text-white font-titulo text-lg px-8 py-4 rounded-xl shadow-lg hover:bg-orange-700 hover:shadow-xl transition-all transform hover:-translate-y-1">
+                    Descubre el viaje diseñado para ti
+                    <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: MANTRA Y PROPÓSITO -->
+    <section class="bg-gris py-20 px-6" aria-labelledby="proposito-titulo">
+        <div class="max-w-3xl mx-auto text-center flex flex-col gap-12">
+            <!-- Cita Destacada -->
+            <div class="relative">
+                <i class="ph-fill ph-quotes text-verde/10 text-6xl absolute -top-6 -left-2 md:-left-8" aria-hidden="true"></i>
+                <h2 class="font-mantra text-3xl md:text-4xl text-verde italic leading-snug relative z-10 px-4">
+                    "Queremos que en este viaje te sientas cuidada, sostenida y tu presencia aporte al cuidado del entorno."
+                </h2>
+            </div>
+
+            <div class="h-px w-24 bg-naranja mx-auto" role="presentation"></div>
+
+            <!-- Propósito -->
+            <div class="text-left md:text-center space-y-6 bg-white/60 p-8 md:p-10 rounded-3xl shadow-sm border border-white">
+                <h3 id="proposito-titulo" class="font-titulo text-2xl md:text-3xl text-verde">Un viaje donde tu inversión no es sólo económica, es también social y ambiental.</h3>
+                <p class="text-lg md:text-xl leading-relaxed text-verde/80">
+                    Diseñado exclusivamente para mujeres adultas viajeras. Esta experiencia es una invitación a viajar con total transparencia. Te sumergirás en una cadena liderada por mujeres locales: desde conductoras, artistas, guías, cocineras, hasta facilitadoras. 
+                </p>
+                <p class="text-lg md:text-xl leading-relaxed text-verde/80 font-bold">
+                    Tu presencia apoya directamente causas justas, impulsa a emprendedoras merideñas y fortalece iniciativas regenerativas reales. Además, creamos juntas un espacio seguro para reconectar contigo misma.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: TU RUTA DE TRANSFORMACIÓN (Itinerario) -->
+    <section id="itinerario" class="bg-white py-20 px-6" aria-labelledby="itinerario-titulo">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 id="itinerario-titulo" class="font-titulo text-4xl text-verde mb-4">Tu Ruta de Transformación</h2>
+                <p class="text-lg text-verde/70">Un recorrido paso a paso para sentipensar el territorio.</p>
+            </div>
+
+            <!-- Tarjetas de Itinerario -->
+            <div class="space-y-6">
+                <!-- Día 1 -->
+                <div class="flex gap-4 md:gap-6 items-start group">
+                    <div class="flex flex-col items-center">
+                        <div class="w-12 h-12 rounded-full bg-verde text-white flex items-center justify-center font-titulo text-xl shadow-md z-10" aria-label="Día 1">1</div>
+                        <div class="w-0.5 h-full bg-gris group-last:hidden min-h-[3rem] my-2" role="presentation"></div>
+                    </div>
+                    <div class="bg-gris/30 border border-gris/50 rounded-2xl p-6 flex-1 hover:border-naranja transition-colors mt-1">
+                        <h4 class="font-titulo text-xl text-naranja mb-2">Aterrizaje y Arraigo</h4>
+                        <p class="text-verde/80 text-lg">Llegada, círculo de bienvenida, entrega del kit de regalo de cosmética natural, conversatorio de bienvenida y taller de EcoDiario sentipensante.</p>
+                    </div>
+                </div>
+
+                <!-- Día 2 -->
+                <div class="flex gap-4 md:gap-6 items-start group">
+                    <div class="flex flex-col items-center">
+                        <div class="w-12 h-12 rounded-full bg-verde text-white flex items-center justify-center font-titulo text-xl shadow-md z-10" aria-label="Día 2">2</div>
+                        <div class="w-0.5 h-full bg-gris group-last:hidden min-h-[3rem] my-2" role="presentation"></div>
+                    </div>
+                    <div class="bg-gris/30 border border-gris/50 rounded-2xl p-6 flex-1 hover:border-naranja transition-colors mt-1">
+                        <h4 class="font-titulo text-xl text-naranja mb-2">Exploración Somática y Biocéntrica</h4>
+                        <p class="text-verde/80 text-lg">Liberación a través del movimiento y reconexión profunda con el entorno. Visita a un bosque comestible y un recorrido para sentipensar el territorio.</p>
+                    </div>
+                </div>
+
+                <!-- Día 3 -->
+                <div class="flex gap-4 md:gap-6 items-start group">
+                    <div class="flex flex-col items-center">
+                        <div class="w-12 h-12 rounded-full bg-verde text-white flex items-center justify-center font-titulo text-xl shadow-md z-10" aria-label="Día 3">3</div>
+                        <div class="w-0.5 h-full bg-gris group-last:hidden min-h-[3rem] my-2" role="presentation"></div>
+                    </div>
+                    <div class="bg-gris/30 border border-gris/50 rounded-2xl p-6 flex-1 hover:border-naranja transition-colors mt-1">
+                        <h4 class="font-titulo text-xl text-naranja mb-2">Manos a la Tierra</h4>
+                        <p class="text-verde/80 text-lg">Visita a experiencias regenerativas del territorio. Taller práctico de sistemas de Compostaje con BioChar, conocimiento de un hábitat bioconstruido (La Lumbre Homestead).</p>
+                    </div>
+                </div>
+
+                <!-- Día 4 -->
+                <div class="flex gap-4 md:gap-6 items-start group">
+                    <div class="flex flex-col items-center">
+                        <div class="w-12 h-12 rounded-full bg-verde text-white flex items-center justify-center font-titulo text-xl shadow-md z-10" aria-label="Día 4">4</div>
+                        <div class="w-0.5 h-full bg-gris group-last:hidden min-h-[3rem] my-2" role="presentation"></div>
+                    </div>
+                    <div class="bg-gris/30 border border-gris/50 rounded-2xl p-6 flex-1 hover:border-naranja transition-colors mt-1">
+                        <h4 class="font-titulo text-xl text-naranja mb-2">Cuidado del cuerpo y de la tierra</h4>
+                        <p class="text-verde/80 text-lg">Recorrido por emprendimientos de alimentación saludable y cosmética natural.</p>
+                    </div>
+                </div>
+
+                <!-- Día 5 -->
+                <div class="flex gap-4 md:gap-6 items-start group">
+                    <div class="flex flex-col items-center">
+                        <div class="w-12 h-12 rounded-full bg-verde text-white flex items-center justify-center font-titulo text-xl shadow-md z-10" aria-label="Día 5">5</div>
+                        <div class="w-0.5 h-full bg-gris group-last:hidden min-h-[3rem] my-2" role="presentation"></div>
+                    </div>
+                    <div class="bg-gris/30 border border-gris/50 rounded-2xl p-6 flex-1 hover:border-naranja transition-colors mt-1">
+                        <h4 class="font-titulo text-xl text-naranja mb-2">Libertad Creativa</h4>
+                        <p class="text-verde/80 text-lg">Día de dibujo libre. Espacio personal para integrar la experiencia y encuentro de despedida.</p>
+                    </div>
+                </div>
+
+                <!-- Día 6 -->
+                <div class="flex gap-4 md:gap-6 items-start group">
+                    <div class="flex flex-col items-center">
+                        <div class="w-12 h-12 rounded-full bg-verde text-white flex items-center justify-center font-titulo text-xl shadow-md z-10" aria-label="Día 6">6</div>
+                    </div>
+                    <div class="bg-naranja/10 border border-naranja/30 rounded-2xl p-6 flex-1 mt-1 relative overflow-hidden">
+                        <div class="absolute -right-4 -bottom-4 opacity-10">
+                            <i class="ph-fill ph-sparkle text-8xl text-naranja" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="font-titulo text-xl text-naranja mb-2 relative z-10">Cosecha y Celebración</h4>
+                        <p class="text-verde/90 text-lg font-bold relative z-10">Despedida con gastronomía andina, honrando la red de mujeres, intercambio de sentires y experiencias.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Disclaimer de Actividades -->
+            <div class="mt-12 bg-[#fff7f2] border-l-4 border-naranja p-6 rounded-r-xl shadow-sm">
+                <div class="flex gap-3 items-start">
+                    <i class="ph-fill ph-info text-naranja text-2xl mt-1" aria-hidden="true"></i>
+                    <div>
+                        <h5 class="font-titulo text-naranja text-lg mb-1">Nota sobre las Actividades</h5>
+                        <p class="text-verde/80 text-md leading-relaxed">
+                            Las actividades pueden cambiar dependiendo de factores climáticos. El equipo de LUNARTE se reserva el derecho a hacer cambios en el itinerario por la seguridad de las participantes, entendiendo que se compensará con la incorporación de otra actividad equivalente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4: NUESTRA FUERZA (Logos y Ecosistema) -->
+    <section class="bg-gris py-20 px-6" aria-labelledby="alianzas-titulo">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 id="alianzas-titulo" class="font-titulo text-3xl md:text-4xl text-verde mb-6">El turismo Regenerativo reconoce y honra la red que te sostiene</h2>
+                <p class="text-lg md:text-xl text-verde/80 max-w-2xl mx-auto">
+                    Tu inversión nutre directamente a un ecosistema de innovación social y natural en Mérida. Detrás de cada experiencia, hay una cadena de mujeres garantizando tu contención y el cuidado de territorio.
+                </p>
+            </div>
+
+            <!-- Grid de Alianzas -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 items-stretch justify-items-center">
+                
+                <div class="flex flex-col items-center justify-center p-4 h-36 w-full bg-white rounded-xl shadow-sm text-center text-verde hover:scale-105 transition border border-white hover:border-naranja/30">
+                    <i class="ph ph-plant text-3xl mb-2 text-verde/60" aria-hidden="true"></i>
+                    <span class="font-titulo text-sm uppercase">Regenera Club</span>
+                </div>
+                
+                <div class="flex flex-col items-center justify-center p-4 h-36 w-full bg-white rounded-xl shadow-sm text-center text-verde hover:scale-105 transition border border-white hover:border-naranja/30">
+                    <i class="ph ph-users-three text-3xl mb-2 text-verde/60" aria-hidden="true"></i>
+                    <span class="font-titulo text-sm uppercase">Disruptivas</span>
+                </div>
+                
+                <div class="flex flex-col items-center justify-center p-4 h-36 w-full bg-white rounded-xl shadow-sm text-center text-verde hover:scale-105 transition border border-white hover:border-naranja/30">
+                    <i class="ph ph-house-line text-3xl mb-2 text-verde/60" aria-hidden="true"></i>
+                    <span class="font-titulo text-sm uppercase">Casas Vida Libre</span>
+                </div>
+
+                <div class="flex flex-col items-center justify-center p-4 h-36 w-full bg-white rounded-xl shadow-sm text-center text-verde hover:scale-105 transition border border-white hover:border-naranja/30">
+                    <i class="ph ph-leaf text-3xl mb-2 text-verde/60" aria-hidden="true"></i>
+                    <span class="font-titulo text-sm uppercase">Huertas Vivas</span>
+                </div>
+
+                <div class="flex flex-col items-center justify-center p-4 h-36 w-full bg-white rounded-xl shadow-sm text-center text-verde hover:scale-105 transition border border-white hover:border-naranja/30">
+                    <i class="ph ph-fire text-3xl mb-2 text-verde/60" aria-hidden="true"></i>
+                    <span class="font-titulo text-sm uppercase leading-tight">La Lumbre<br>Homestead</span>
+                </div>
+
+                <div class="flex flex-col items-center justify-center p-4 h-36 w-full bg-white rounded-xl shadow-sm text-center text-verde hover:scale-105 transition border border-white hover:border-naranja/30">
+                    <i class="ph ph-smiley text-3xl mb-2 text-verde/60" aria-hidden="true"></i>
+                    <span class="font-titulo text-sm uppercase">The Happy Gut</span>
+                </div>
+
+                <!-- LUNARTE Destacado (Icono) -->
+                <div class="col-span-2 flex flex-col items-center justify-center p-4 h-36 w-full bg-verde text-white rounded-xl shadow-md text-center hover:bg-naranja transition border border-verde hover:border-naranja relative overflow-hidden group">
+                    <div class="relative z-10 flex flex-col items-center">
+                        <div class="h-16 w-16 flex items-center justify-center rounded-full bg-white text-naranja border-2 border-white group-hover:border-verde shadow-lg mb-2 transition-colors">
+                            <i class="ph-fill ph-moon-stars text-4xl" aria-hidden="true"></i>
+                        </div>
+                        <span class="font-titulo text-base uppercase tracking-widest">LUNARTE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 5: INVERSIÓN Y PRÓXIMOS PASOS -->
+    <section id="inversion" class="bg-verde text-white py-20 px-6 border-t-8 border-naranja" aria-labelledby="inversion-titulo">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 id="inversion-titulo" class="font-titulo text-4xl md:text-5xl mb-4">Únete a la experiencia</h2>
+                <p class="text-xl text-gris font-light">Asegura tu lugar en esta inmersión exclusiva para <span class="font-bold text-naranja border-b-2 border-naranja">solo 7 mujeres</span>.</p>
+            </div>
+
+            <!-- Opciones de Inversión -->
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Card 1 -->
+                <div class="bg-white text-verde p-8 rounded-3xl shadow-xl flex flex-col justify-between relative overflow-hidden transform hover:-translate-y-1 transition">
+                    <div class="absolute top-0 right-0 bg-naranja text-white text-xs font-bold px-4 py-1 rounded-bl-xl tracking-wider uppercase">
+                        Recomendado
+                    </div>
+                    <div>
+                        <h3 class="font-titulo text-2xl mb-2">Pronto Pago</h3>
+                        <p class="text-verde/70 text-sm font-bold uppercase tracking-wider mb-6">Upfront</p>
+                        <div class="text-5xl font-titulo mb-4">$400 <span class="text-xl text-verde/50">USD</span></div>
+                        <p class="text-lg leading-relaxed mb-8">
+                            Opción preferencial que impulsa la liquidez inicial de nuestro ecosistema regenerativo.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-gris text-verde p-8 rounded-3xl shadow-lg border border-transparent hover:border-naranja/50 transition flex flex-col justify-between transform hover:-translate-y-1">
+                    <div>
+                        <h3 class="font-titulo text-2xl mb-2">Pago Financiado</h3>
+                        <p class="text-verde/70 text-sm font-bold uppercase tracking-wider mb-6">Payment Plan</p>
+                        <div class="text-5xl font-titulo mb-4">$500 <span class="text-xl text-verde/50">USD</span></div>
+                        <p class="text-lg leading-relaxed mb-8">
+                            Reserva hoy tu cupo y abona el resto en cómodas cuotas antes de tu viaje.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qué Incluye -->
+            <div class="bg-white/5 rounded-3xl p-8 mb-12 backdrop-blur-sm border border-white/10">
+                <h4 class="font-titulo text-xl mb-6 text-naranja">¿Qué incluye tu inversión?</h4>
+                <ul class="grid md:grid-cols-2 gap-5 text-lg font-light">
+                    <li class="flex items-start gap-3">
+                        <i class="ph-fill ph-check-circle text-naranja mt-1 text-xl" aria-hidden="true"></i>
+                        <span>6 días y 5 noches de hospedaje exclusivo.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="ph-fill ph-check-circle text-naranja mt-1 text-xl" aria-hidden="true"></i>
+                        <span>Transporte interno guiado y seguro.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="ph-fill ph-check-circle text-naranja mt-1 text-xl" aria-hidden="true"></i>
+                        <span>Todas las comidas (gastronomía andina local).</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="ph-fill ph-check-circle text-naranja mt-1 text-xl" aria-hidden="true"></i>
+                        <span>Facilitación de todos los talleres y guías.</span>
+                    </li>
+                    <li class="flex items-start gap-3 md:col-span-2">
+                        <i class="ph-fill ph-check-circle text-naranja mt-1 text-xl" aria-hidden="true"></i>
+                        <span>Kit de higiene personal artesanal y ecológico de regalo.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center">
+                <a href="https://wa.me/584246371640?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Regenera%20Journey%20M%C3%A9rida" target="_blank" rel="noopener noreferrer" class="flex justify-center items-center gap-2 w-full md:w-max mx-auto bg-naranja text-white font-titulo text-xl px-10 py-5 rounded-2xl shadow-xl hover:bg-orange-700 hover:shadow-2xl transition-all transform hover:-translate-y-1" aria-label="Agenda tu llamada de exploración por WhatsApp">
+                    <i class="ph-bold ph-whatsapp text-2xl" aria-hidden="true"></i>
+                    Agenda tu llamada de exploración
+                </a>
+                <p class="mt-4 text-sm text-gris/70 font-light">Charlemos para asegurar que este viaje es el indicado para ti.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 6: FAQ -->
+    <section class="bg-white py-20 px-6" aria-labelledby="faq-titulo">
+        <div class="max-w-3xl mx-auto">
+            <h2 id="faq-titulo" class="font-titulo text-3xl md:text-4xl text-verde text-center mb-12">Preguntas Frecuentes</h2>
+            
+            <div class="space-y-4">
+                <details class="group border border-gris rounded-xl bg-gris/10 cursor-pointer overflow-hidden transition-all duration-300">
+                    <summary class="font-titulo text-lg md:text-xl text-verde p-6 flex justify-between items-center outline-none hover:bg-gris/5 transition">
+                        ¿Incluye traslados del terminal o el aeropuerto hasta la posada y de regreso?
+                        <span class="transition-transform duration-300 group-open:rotate-180">
+                            <i class="ph-bold ph-caret-down text-naranja" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="text-verde/80 text-lg px-6 pb-6 pt-0 border-t border-gris/50 mt-2 bg-white leading-relaxed">
+                        <br>No, los pasajes incluidos son sólo los vinculados a los recorridos una vez llegado a la posada.
+                    </div>
+                </details>
+
+                <details class="group border border-gris rounded-xl bg-gris/10 cursor-pointer overflow-hidden transition-all duration-300">
+                    <summary class="font-titulo text-lg md:text-xl text-verde p-6 flex justify-between items-center outline-none hover:bg-gris/5 transition">
+                        ¿En qué moneda se paga?
+                        <span class="transition-transform duration-300 group-open:rotate-180">
+                            <i class="ph-bold ph-caret-down text-naranja" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="text-verde/80 text-lg px-6 pb-6 pt-0 border-t border-gris/50 mt-2 bg-white leading-relaxed">
+                        <br>Puedes hacer los pagos en USD en bolívares a la tasa del Banco Central de Venezuela, USD en efectivo, USDT (Binance), transferencia interbancaria internacional. Las comisiones bancarias o de las plataformas utilizadas van por cuenta de la cliente.
+                    </div>
+                </details>
+
+                <details class="group border border-gris rounded-xl bg-gris/10 cursor-pointer overflow-hidden transition-all duration-300">
+                    <summary class="font-titulo text-lg md:text-xl text-verde p-6 flex justify-between items-center outline-none hover:bg-gris/5 transition">
+                        Política de cancelación
+                        <span class="transition-transform duration-300 group-open:rotate-180">
+                            <i class="ph-bold ph-caret-down text-naranja" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="text-verde/80 text-lg px-6 pb-6 pt-0 border-t border-gris/50 mt-2 bg-white leading-relaxed">
+                        <br><strong>Cancelaciones con más de 60 días de anticipación:</strong> Reembolso del 90% del monto pagado.<br><br>
+                        <strong>Cancelaciones entre 30 y 60 días:</strong> Reembolso del 70% del monto pagado.<br><br>
+                        <strong>Cancelaciones con menos de 30 días:</strong> No se reembolsa. Se puede transferir tu cupo a otra persona.<br><br>
+                        <strong>En caso de fuerza mayor:</strong> Se ofrecerá prioridad para futuras fechas o reembolso completo según sea necesario.
+                    </div>
+                </details>
+
+                <details class="group border border-gris rounded-xl bg-gris/10 cursor-pointer overflow-hidden transition-all duration-300">
+                    <summary class="font-titulo text-lg md:text-xl text-verde p-6 flex justify-between items-center outline-none hover:bg-gris/5 transition">
+                        ¿Cuál es el nivel de dificultad física?
+                        <span class="transition-transform duration-300 group-open:rotate-180">
+                            <i class="ph-bold ph-caret-down text-naranja" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="text-verde/80 text-lg px-6 pb-6 pt-0 border-t border-gris/50 mt-2 bg-white leading-relaxed">
+                        <br>Las actividades están diseñadas para ser accesibles para diferentes niveles de condición física. Sin embargo, hay caminatas y exploración de terrenos naturales. Te recomendamos estar en condiciones físicas moderadas. Comunícanos cualquier limitación o preocupación durante la reserva.
+                    </div>
+                </details>
+
+                <details class="group border border-gris rounded-xl bg-gris/10 cursor-pointer overflow-hidden transition-all duration-300">
+                    <summary class="font-titulo text-lg md:text-xl text-verde p-6 flex justify-between items-center outline-none hover:bg-gris/5 transition">
+                        ¿Qué debo llevar?
+                        <span class="transition-transform duration-300 group-open:rotate-180">
+                            <i class="ph-bold ph-caret-down text-naranja" aria-hidden="true"></i>
+                        </span>
+                    </summary>
+                    <div class="text-verde/80 text-lg px-6 pb-6 pt-0 border-t border-gris/50 mt-2 bg-white leading-relaxed">
+                        <br>Ropa cómoda para caminatas, zapatos deportivos, bloqueador solar, repelente, ropa para clima frío (por las noches en la montaña), documentos de identidad, y cualquier medicamento personal. Te enviaremos un listado completo tras confirmar tu inscripción.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-verde text-center py-16 px-6 border-t border-white/10">
+        <div class="flex flex-col items-center justify-center mb-6">
+            <!-- Icono de Luna en el footer -->
+            <div class="h-20 w-20 flex items-center justify-center rounded-full bg-white text-naranja border-2 border-naranja shadow-lg mb-4">
+                <i class="ph-fill ph-moon-stars text-4xl" aria-hidden="true"></i>
+            </div>
+            <h2 class="font-titulo text-2xl text-white tracking-widest">LUNARTE</h2>
+        </div>
+        <p class="text-gris/70 text-sm max-w-sm mx-auto mb-8 font-light">
+            Laboratorio Urbano de Naturaleza y Arte para Regenerar Territorios
+        </p>
+        <div class="w-16 h-px bg-naranja/50 mx-auto mb-8" role="presentation"></div>
+        <div class="space-y-3 mb-6 text-xs text-white/60">
+            <p><a href="#privacy" class="hover:text-naranja transition">Política de Privacidad</a> | <a href="#terms" class="hover:text-naranja transition">Términos y Condiciones</a></p>
+        </div>
+        <p class="text-white/40 text-xs tracking-wider uppercase">
+            © 2024 Regenera Journey Mérida.<br class="md:hidden"> Todos los derechos reservados.
+        </p>
+    </footer>
+
+    <!-- JSON-LD Schema for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "LUNARTE - Regenera Journey Mérida",
+        "description": "Regenera Journey Mérida: 5 noches y 6 días de inmersión regenerativa en los Andes venezolanos para mujeres viajeras.",
+        "url": "https://regenerajourney.com",
+        "image": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?q=80&w=1200&auto=format&fit=crop",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "url": "https://wa.me/584246371640"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "USD",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Pronto Pago",
+                    "price": "400",
+                    "priceCurrency": "USD",
+                    "description": "Opción preferencial que impulsa la liquidez inicial de nuestro ecosistema regenerativo.",
+                    "availability": "InStock"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pago Financiado",
+                    "price": "500",
+                    "priceCurrency": "USD",
+                    "description": "Reserva hoy tu cupo y abona el resto en cómodas cuotas.",
+                    "availability": "InStock"
+                }
+            ]
+        }
+    }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-8');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            const animatedElements = document.querySelectorAll('section > div');
+            animatedElements.forEach((el) => {
+                el.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-8');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
